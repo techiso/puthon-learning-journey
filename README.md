@@ -65,3 +65,13 @@ A simple Python app to manage daily tasks.
 
 ```bash
 python todo_app.py
+---
+
+## ✅ Project 5: Website IP Finder 🌐
+
+A simple cybersecurity networking tool that finds the IP address of a website.
+
+### Run it with:
+
+```bash
+python ip_finder.py
