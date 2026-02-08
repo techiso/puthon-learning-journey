@@ -33,3 +33,19 @@ Run it with:
 
 ```bash
 python password_checker.py
+---
+
+## ✅ Project 3: Mini ATM System 💳
+
+A simple Python ATM simulation.
+
+### Features:
+- Balance display
+- Deposit money
+- Withdraw money
+- PIN verification
+
+### Run it with:
+
+```bash
+python atm_system.py
