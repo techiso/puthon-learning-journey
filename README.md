@@ -1,1 +1,1 @@
-# puthon-learning-journey
+# python-learning-journey
