@@ -49,3 +49,19 @@ A simple Python ATM simulation.
 
 ```bash
 python atm_system.py
+---
+
+## ✅ Project 4: To-Do List App 📝
+
+A simple Python app to manage daily tasks.
+
+### Features:
+- Add new tasks
+- View all tasks
+- Remove tasks
+- Exit system
+
+### Run it with:
+
+```bash
+python todo_app.py
