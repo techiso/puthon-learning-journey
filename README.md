@@ -17,3 +17,19 @@ A beginner-friendly quiz game built with Python.
 
 ```bash
 python quiz_game.py
+---
+
+## ✅ Project 2: Password Strength Checker 🔐
+
+A simple cybersecurity tool that checks password strength.
+
+### Checks:
+- Length (8+ characters)
+- Uppercase letters
+- Numbers
+- Special characters
+
+Run it with:
+
+```bash
+python password_checker.py
