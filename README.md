@@ -33,3 +33,38 @@ Run it with:
 
 ```bash
 python password_checker.py
+import re
+
+print("🔐 Password Strength Checker")
+
+password = input("Enter your password: ")
+
+strength = 0
+
+# Length check
+if len(password) >= 8:
+    strength += 1
+
+# Uppercase check
+if any(char.isupper() for char in password):
+    strength += 1
+
+# Number check
+if any(char.isdigit() for char in password):
+    strength += 1
+
+# Special character check
+if re.search(r"[!@#$%^&*(),.?\":{}|<>]", password):
+    strength += 1
+
+# Result
+print("\nResult:")
+
+if strength == 4:
+    print("✅ Strong Password 💪")
+elif strength == 3:
+    print("🟡 Good Password 🙂")
+elif strength == 2:
+    print("🟠 Weak Password 😕")
+else:
+    print("🔴 Very Weak Password ❌")
