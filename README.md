@@ -102,3 +102,26 @@ for port in ports:
     sock.close()
 
 print("\nScan finished.")
+# Project 7: Log Analyzer Tool 📄
+
+print("📄 Log Analyzer Tool")
+print("---------------------")
+
+filename = input("Enter log file name (example: log.txt): ")
+
+keywords = ["error", "failed", "attack", "warning"]
+
+try:
+    with open(filename, "r") as file:
+        content = file.read().lower()
+
+    print("\n--- Analysis Result ---")
+
+    for word in keywords:
+        count = content.count(word)
+        print(f"'{word}' found: {count} times")
+
+    print("\n✅ Log analysis finished.")
+
+except FileNotFoundError:
+    print("❌ File not found. Please check the file name.")
