@@ -125,3 +125,13 @@ try:
 
 except FileNotFoundError:
     print("❌ File not found. Please check the file name.")
+--
+
+## ✅ Project 8: Password Generator 🔐
+
+A tool that generates strong random passwords.
+
+Run it with:
+
+```bash
+python password_generator.py
