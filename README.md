@@ -145,3 +145,8 @@ Run it with:
 
 ```bash
 python hash_generator.py
+---
+
+## ✅ Project 10: Secure Login Demo 🔐
+
+A simple login system that stores passwords securely using SHA256 hashing.
