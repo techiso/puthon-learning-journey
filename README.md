@@ -135,3 +135,13 @@ Run it with:
 
 ```bash
 python password_generator.py
+---
+
+## ✅ Project 9: SHA256 Hash Generator 🔥
+
+A cybersecurity tool that converts text into a secure SHA256 hash.
+
+Run it with:
+
+```bash
+python hash_generator.py
